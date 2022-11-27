@@ -26,7 +26,7 @@ public:
 	{
 		int n = 4;
 		float x = -6;
-		float expected = 0;
+		float expected = 1;
 
 		float actual = calculate(x, n);
 
@@ -95,7 +95,7 @@ public:
 		{
 			float start = 1;
 			float step = 2;
-			float end = 0;
+			float end = 4;
 			try
 			{
 				checkVaildParams(start, step, end);
@@ -112,7 +112,7 @@ public:
 			float start = 1;
 			float step = 2;
 			float end = 5;
-			int n = -3;
+			int n = 1;
 			try
 			{
 				checkVaildParams(start, step, end, n);
